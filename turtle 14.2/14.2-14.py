@@ -3,7 +3,7 @@
 
 import turtle as t
 
-#t.speed(8)
+t.speed(10)
 
 
 t.goto(0, -50)
@@ -13,20 +13,22 @@ t.pendown()
 t.circle(100)
 t.circle(50)
 
+
+
 t.penup()
 t.goto(0, -2)
 t.pendown()
 t.circle(10)
 
 t.penup()
-t.goto(40, 25)
-t.pendown()
-t.circle(13)
+t.goto(45, 33)
+t.pensize(12)
+t.dot()
 
 t.penup()
-t.goto(-40, 25)
-t.pendown()
-t.circle(13)
+t.goto(-45, 33)
+t.dot()
+t.pensize(1)
 
 t.penup()
 t.goto(85, 100)
